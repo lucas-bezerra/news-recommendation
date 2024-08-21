@@ -1,0 +1,15 @@
+npm-debug.log
+.env
+.DS_Store
+
+src/**/*.js
+src/**/*.js.map
+src/model.json
+
+dist/
+dist/**/*
+
+*.config
+
+node_modules
+.vscode/settings.json

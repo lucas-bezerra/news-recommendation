@@ -1,0 +1,33 @@
+{
+  "extends": "tslint-config-standard",
+  "env": {
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "max-line-length": [true, 16000],
+    "no-trailing-whitespace-comments": false,
+    "no-trailing-whitespace": false,
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type",
+      "check-typecast"
+    ],
+    "variable-name": [
+      false,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "allow-pascal-case",
+      "allow-snake-case",
+      "ban-keywords"
+    ]
+  }
+}
