@@ -28,7 +28,7 @@ Para mais detalhes técnicos e explicações aprofundadas, consulte a [Wiki](htt
 ## Estrutura do Projeto
 
 ```plaintext
-advanced-article-recommendation/
+src/
 │
 ├── articles.ts                     # Funções para manipulação e extração de dados da tabela articles
 ├── bm25.ts                         # Implementação do algoritmo BM25
