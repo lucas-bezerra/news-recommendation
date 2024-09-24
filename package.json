@@ -11,7 +11,7 @@
   "description": "",
   "dependencies": {
     "@supercharge/promise-pool": "3.2.0",
-    "body-parser": "1.20.2",
+    "body-parser": "1.20.3",
     "compression": "1.7.4",
     "cookie-parser": "1.4.6",
     "csv-parser": "3.0.0",
